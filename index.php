@@ -9,7 +9,7 @@
         <h2>No name, no delete button, no regrets.</h2>
         <a href="index.php?sortby=datedesc">Sort by date</a>
         <a href="index.php">Sort by upvotes</a>
-        <a href="encrypted/index.php">Go to HASKREM Hashed</a>
+        <a href="https://github.com/dankerestmemes911/haskrem">See Source Code</a>
         <table>
             <tr>
                 <td>Upvotes: Over 9000</td>
@@ -17,12 +17,10 @@
                 <td>Created on: n/a</td>
             </tr>
             <?php
-                // Beginning of settings
-                $mysql_server = "";
-                $mysql_user = "";
-                $mysql_pass = "";
-                $mysql_db = "";
-                // Ending of settings
+                $mysql_server = "localhost";
+                $mysql_user = "id1939753_haskremuser";
+                $mysql_pass = "Ga0La1Sw!";
+                $mysql_db = "id1939753_haskremtestdb";
                 
                 $conn = mysqli_connect($mysql_server, $mysql_user, $mysql_pass, $mysql_db);
             
