@@ -1,0 +1,26 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    text-align: left;
+    border: 5px;
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+
+h2 {
+    text-align: center;
+    color: cornflowerblue;
+}
+
+p, a {
+    text-align: center;
+}
